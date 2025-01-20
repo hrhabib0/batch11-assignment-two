@@ -84,3 +84,48 @@ body{
         border-bottom: 2px solid #FEA301;
     }
 }
+
+
+/* Banner Section part design  */
+.banner-cotainer{
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-left{
+    flex-direction: column;
+    gap: 20px;
+}
+.title-text{
+    font-size: 3rem;
+}
+.subtitle-text{
+    font-size: 1.2rem;
+}
+.enroll-btn{
+    color: white;
+    background-color: #111111;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+}
+.hero-kids-image{
+    width: 100%;
+}
+
+/* Banner Section part responsive design  */
+@media screen and (max-width: 576px) {
+    .banner-cotainer{
+        flex-direction: column-reverse;
+    }
+    .title-text{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .subtitle-text{
+        text-align: center;
+    }
+    .banner-btn{
+        text-align: center;
+    }
+    
+}

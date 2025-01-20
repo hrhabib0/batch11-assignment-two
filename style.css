@@ -2,9 +2,11 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 body{
     background-color: #f5f5f5;
+    overflow: hidden;
 }
 .width-container{
     width: 80%;
@@ -59,4 +61,26 @@ body{
     border-radius: 12px;
     background-color: #FEA301;
     border: none;
+}
+.mobile-menu-icon{
+    display: none;
+}
+.mobile-icon{
+    font-size: 2rem;
+}
+
+/* Header part responsive design  */
+@media (max-width:576px) {
+    .display-none{
+        display: none;
+    }
+    .mobile-menu-icon{
+        display: flex;
+    }
+    
+    .main-header{
+        width: 100%;
+        padding: 0px 20px;
+        border-bottom: 2px solid #FEA301;
+    }
 }

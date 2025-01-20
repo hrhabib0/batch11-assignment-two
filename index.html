@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kid's Schoole</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <!-- Header section part design  -->
-    <header class="width-container">
+    <header class="main-header width-container">
         <nav class="navbar display-flex">
             <div class="brand-identity display-flex">
                 <div class="brang-logo">
                     <img src="./assets/logo.png" alt="">
                 </div>
-                <div class="brand-name">
+                <div class="brand-name display-none">
                     <h1>Kids School</h1>
                 </div>
             </div>
-            <div class="brand-menu">
+            <div class="brand-menu display-none">
                 <ul class="menu-list display-flex">
                     <li class="menu-item"><a href="#" class="menu-link" id="home-page">Home</a></li>
                     <li class="menu-item"><a href="#" class="menu-link" id="about-page">About</a></li>
@@ -26,10 +28,16 @@
                     <li class="menu-item"><a href="#" class="menu-link" id="admission-page">Admission</a></li>
                 </ul>
             </div>
-            <div class="brand-contact">
+            <div class="brand-contact display-none">
                 <button class="contact-btn">Contact</button>
             </div>
+            <div class="mobile-menu-icon">
+                <i class="fa-solid fa-bars mobile-icon"></i>
+            </div> 
         </nav>
     </header>
+
+
+    
 </body>
 </html>

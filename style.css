@@ -1,0 +1,62 @@
+/* Global styles */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #f5f5f5;
+}
+.width-container{
+    width: 80%;
+    margin: 0px auto;
+}
+.display-flex{
+    display: flex;
+}
+
+
+
+/* Header section part design */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+.brand-identity{
+    align-items: center;
+    gap: 10px;
+}
+.brand-name h1{
+    font-size: 1.8rem;
+}
+.menu-item{
+    list-style: none;
+    margin: 0px 20px;
+}
+.menu-link{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+#home-page{
+    color: #FEA301;
+}
+#about-page{
+    color: #01ACFD;
+}
+#facilities-page{
+    color: #05D4DF;
+}
+#admission-page{
+    color: #5D58EF;
+}
+
+.contact-btn{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 12px;
+    background-color: #FEA301;
+    border: none;
+}

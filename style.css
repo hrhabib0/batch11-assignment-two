@@ -102,7 +102,7 @@ body{
     .main-header{
         width: 100%;
         padding: 0px 20px;
-        border-bottom: 2px solid #FEA301;
+        border: 1px solid #FEA301;
     }
 }
 

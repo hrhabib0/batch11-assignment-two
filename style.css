@@ -1,7 +1,18 @@
+/* Fonts Style  */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-fonts {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 /* Global styles */
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
     
 }
 body{
@@ -17,9 +28,18 @@ body{
 .display-hidden{
     display: none;
 }
+.orange-text{
+    color: #FEA301;
+}
+.sky-blue-text{
+    color: #01ACFD;
+}
 
 
 /* Header section part design */
+.main-header{
+    overflow-x: hidden;
+}
 .navbar{
     justify-content: space-between;
     align-items: center;
@@ -99,6 +119,7 @@ body{
 .title-text{
     font-size: 3rem;
 }
+
 .subtitle-text{
     font-size: 1.2rem;
 }
@@ -144,8 +165,7 @@ body{
     padding: 30px 0px;
 }
 .curriculam-card{
-    gap: 20px;
-    
+    gap: 25px;
 }
 .curriculam-card-item{
     background-image: linear-gradient(#DEF5FF, #FFFFFF);
@@ -154,9 +174,12 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    box-shadow: 0px 0px 10px;
+    /* box-shadow: 0px 0px 10px; */
     text-align: center;
     padding: 20px;
+}
+.curriculam-card-subtitle p{
+    color: #202020;
 }
 .curriculam-card-btn button{
     border: none;
@@ -194,6 +217,14 @@ body{
     color: #FFFFFF;
     position: relative;
 }
+.arrow-one:hover{
+    background-color: #0068f0;
+    transition: 1s;
+}
+.arrow-two:hover{
+    background-color: #0068f0;
+    transition: 1s;
+}
 .curriculam-slide i{
     position: absolute;
     top: 37%;
@@ -205,19 +236,124 @@ body{
     .curriculam-card{
         flex-direction: column;
     }
+    .curriculam-container{
+        width: 95%;
+    }
     .curriculam-slide{
         display: none;
+    }
+    .curriculam-heading h1{
+        font-size: 2rem;
     }
 }
 
 
 
 /* Our Stories Section Part Design  */
-/* .story-card{
+.our-stories{
+    background: url(./assets/bg.png), linear-gradient(#f5f5f5, rgba(235, 167, 50, 0.781));
+    padding: 50px 0px;
+}
+.story-section-title h1{
+    text-align: center;
+    font-size: 2.4rem;
+    padding-top: 40px;
+}
+.story-card-one h1{
+    font-size: 1.6rem;
+    padding: 20px 20px;
+}
+.story-subtitle p{
+    font-size: 0.8rem;
+    color: #666666;
+    padding: 10px 20px;
+    width: 80%;
+    padding-bottom: 32px;
+}
+.story-card-item{
+    border-radius: 16px;
+    background-color: white;
+}
+.story-image{
+    position: relative; 
+}
+.story-image img{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+.overlap-date{
+    font-size: .8rem;
+    color: #FFFFFF;
+    background-color: #95B226;
+    padding: 10px;
+    border-radius: 12px;
+    position: absolute;
+    top: 93%;
+    left: 8%;
+}
+#card-two-date, #card-three-date, #card-four-date, #card-five-date{
+    top: 87%;
+    left: 10%;
+}
+#card-one-date{
+    background-color: #3CD8E8;
+}
+#card-three-date{
+    background-color: #5D58F0;
+}
+.story-card{
     display: grid;
-    grid-template-columns: ;
-} */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+    padding: 80px 0px;
+}
+.story-card-rightside{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    height: 100%;
+}
+.card-two-title-text, .card-three-title-text , .card-four-title-text , .card-five-title-text{
+   font-size: 1rem;
+   padding: 20px 20px 15px 20px;
+}
+.all-card-button{
+   text-align: center;
+}
+.all-card-button button{
+    color: #FFFFFF;
+    background-color: #111111;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 14px;
+ }
+/* Our Stories Section Part Responsive Design  */
+@media screen and (max-width: 576px) {
+    .story-card-leftside{
+        display: none;
+    }
+    .story-card{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 30px 0px;
+    }
+    .story-card-rightside{
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .overlap-date{
+        font-size: 0.5rem;
+        padding: 8px;
+        border-radius: 10px;
+    }
+    .card-two-title-text, .card-three-title-text , .card-four-title-text , .card-five-title-text{
+        font-size: .6rem;
+     }
+    .story-container{
+        width: 95%;
+    }
 
+}
 
 
 
@@ -230,6 +366,9 @@ body{
     gap: 50px;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+.footer-logo{
+    gap: 15px;
 }
 .footer-brand-title{
     color: #FFFFFF;

@@ -328,6 +328,7 @@ body{
     border: none;
     border-radius: 14px;
  }
+
 /* Our Stories Section Part Responsive Design  */
 @media screen and (max-width: 576px) {
     .story-card-leftside{
@@ -352,9 +353,7 @@ body{
     .story-container{
         width: 95%;
     }
-
 }
-
 
 
 /* Footer Section Part Design */
@@ -403,6 +402,7 @@ body{
     list-style: none;
     gap: 20px;
 }
+
 /* Footer Section Part Responsive Design */
 @media screen and (max-width: 576px) {
     .footer-conatiner{

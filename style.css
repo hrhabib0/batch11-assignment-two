@@ -117,7 +117,7 @@ body{
     gap: 20px;
 }
 .title-text{
-    font-size: 3rem;
+    font-size: 2.7rem;
 }
 
 .subtitle-text{
@@ -177,7 +177,11 @@ body{
     text-align: center;
     padding: 20px;
 }
+.curriculam-card-title h1{
+    font-size: 1.4rem;
+}
 .curriculam-card-subtitle p{
+    font-size: 0.9rem;
     color: #202020;
     text-align: center;
 }
@@ -260,7 +264,7 @@ body{
     padding-top: 40px;
 }
 .story-card-one h1{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     padding: 20px 20px;
 }
 .story-subtitle p{
@@ -315,7 +319,7 @@ body{
     height: 100%;
 }
 .card-two-title-text, .card-three-title-text , .card-four-title-text , .card-five-title-text{
-   font-size: 1rem;
+   font-size: 0.9rem;
    padding: 20px 20px 15px 20px;
 }
 .all-card-button{
@@ -363,7 +367,6 @@ body{
 }
 .footer-conatiner{
     gap: 50px;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 .footer-logo{
